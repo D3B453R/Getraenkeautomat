@@ -6,8 +6,8 @@
 
 #include <stdio.h>
 #include <stdlib.h>
-#include <getraenkeautomat.h> // Beinhaltet die eigenen Funktionen für den Getränkeautomaten
-#include <windows.h> // Für Windows als Target, wenn Linux oder MacOS, dann auskommentieren!
+#include <getraenkeautomat.h> // Beinhaltet die eigenen Funktionen fuer den Getraenkeautomaten
+#include <windows.h> // Fuer Windows als Target, wenn Linux oder MacOS, dann auskommentieren!
 #if GlobalDEBUG >= 1 // In diesem Abschnitt werden die Debug-Funktionen aktiviert, wenn in getraenkeautomat.h GlobalDEBUG aktiv
 #define debug 1
 #else
@@ -15,16 +15,16 @@
 #endif // GlobalDEBUG
 
 int irerun=1; // Solange dieser Wert 1 ist, wird das Hauptprogramm wiederholt.
-float babby=1.99; // Wird später noch gelöscht
+float babby=1.99; // Wird spaeter noch geloescht
 
 //
 
 int main()
 {
-    system("color a"); // Hier wird die Ausgabefarbe auf Grün gestellt
+    system("color a"); // Hier wird die Ausgabefarbe auf Gruen gestellt
     do
     {
-        int iSelect = funtime(); // Diese Var verwende ich, um den Rückgabewert von funtime, also die Auswahl zu bekommen.
+        int iSelect = funtime(); // Diese Var verwende ich, um den Rueckgabewert von funtime, also die Auswahl zu bekommen.
         int iCheck;
         printf("Ihre Auswahl ist: %d\n\n", iSelect);
 //        if(iSelect==9||iSelect==10)
