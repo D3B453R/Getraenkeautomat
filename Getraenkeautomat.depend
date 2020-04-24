@@ -1,0 +1,13 @@
+# depslib dependency file v1.0
+1587684848 source:c:\users\maxim\onedrive - staatliche berufsschule erlangen\unterricht\app\codeblocks\getraenkeautomat\main.c
+	<stdio.h>
+	<stdlib.h>
+	<getraenkeautomat.h>
+	<windows.h>
+
+1587589837 c:\users\maxim\onedrive - staatliche berufsschule erlangen\unterricht\app\codeblocks\getraenkeautomat\include\new.h
+	<new.h>
+
+1587685222 c:\users\maxim\onedrive - staatliche berufsschule erlangen\unterricht\app\codeblocks\getraenkeautomat\include\getraenkeautomat.h
+	<windows.h>
+
